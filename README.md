@@ -8,8 +8,8 @@
 
 
 ### 使用方式
-下载到本地，直接双击index.html即可使用。
+下载到本地，直接用浏览器打开index.html即可使用。
 ```shell
-# git clone git@github.com:ownthink/robot.git
+git clone git@github.com:ownthink/robot.git
 ```
 
