@@ -11,12 +11,9 @@
 下载到本地，直接用浏览器打开index.html即可使用。
 ```shell
 git clone git@github.com:ownthink/robot.git
-<<<<<<< HEAD
 ```
 ### 免费申请独立api接口
 api示范
 ```shell
-https://api.ownthink.com/bot/query?key=ownthink&id=yener&info=%E4%BD%A0%E5%A5%BD%E5%B0%8F%E6%80%9D
-=======
->>>>>>> ca5a406c066a5babeefc3ffa42d3120cdc29b9d5
+https://api.ownthink.com/bot/query?key=ownthink&id=yener&info=%E4%BD%A0%E5%A5%BD%E5%B0%8F%E6%80%9
 ```
