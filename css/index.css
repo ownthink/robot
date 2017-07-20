@@ -1,0 +1,161 @@
+@CHARSET "UTF-8";
+    a:link {
+		color: #fff;
+		text-decoration: none;
+	}
+	a:visited {
+		text-decoration: none;
+		color: #fff;
+	}
+	a:hover {
+		text-decoration: none;
+		color: #fff;
+	}
+	a:active {
+		text-decoration: none;
+		color: #fff;
+	}
+	
+	* {
+		margin: 0;
+		padding: 0;
+	}
+	
+	body {
+		font-size: 12px;
+		font-family: "微软雅黑";
+		background: url(../img/bg.jpg) no-repeat;
+		width: 100%;
+		height: 100vh;
+		background-size: cover;
+	}
+	
+	#top {
+		width: 100%;
+		height: 60px;
+		background: rgba(15, 25, 50, 0.3);
+		color: #fff;
+		line-height: 60px;
+		text-align: center;
+		font-size: 30px;
+	}
+
+	#box {
+		width: 800px;
+		height: 600px;
+		background: rgba(255, 255, 255, .5);
+		margin: 100px auto 0;
+	}
+
+	.b-head {
+		width: 100%;
+		height: 60px;
+		background-color: #4CAF50;
+	}
+	
+	.h-img {
+		margin: 0 20px;
+		float: left;
+		user-select: none;
+	}
+	
+	.h_span {
+		color: #fff;
+		font-size: 18px;
+		line-height: 60px;
+		float: left;
+		user-select: none;
+		cursor: default;
+	}
+
+	.b-body {
+		width: 100%;
+		height: 420px;
+		overflow: auto;
+		margin: 20px 0;
+	}
+	
+	.rotWord,.mWord{
+		width: 100%;
+		margin-top: 10px;
+		overflow: hidden;
+	}
+	
+	.rotWord span {
+		background: url(../img/rot.png);
+		height: 40px;
+		width: 40px;
+		margin-left: 20px;
+		float: left;
+	}
+	
+	.rotWord p {
+		word-break: break-all;
+		top: 4px;
+		float: left;
+		color: #fff;
+		font-size: 14px;
+		margin-left: 10px;
+		padding: 10px;
+		line-height: 24px;
+		background: rgba(0, 0, 255, .5);
+		border-radius: 6px;
+		max-width: 220px;
+	}
+	
+	.mWord span {
+		background: url(../img/my.png);
+		height: 40px;
+		width: 40px;
+		float: right;
+		margin-right: 20px;
+	}
+	
+	.mWord p {
+		word-break: break-all;
+		top: 2px;
+		float: right;
+		color: #fff;
+		font-size: 14px;
+		margin-right: 10px;
+		padding: 10px;
+		line-height: 24px;
+		background: #19b955;
+		border-radius: 6px;
+		max-width: 220px;
+	}
+	
+	.b-footer {
+		width: 760px;
+		height: 60px;
+		margin: 0 20px;
+		font-size: 16px;
+		color: #666;
+	}
+	
+	#f-left {
+		padding-left: 20px;
+		outline: none;
+		overflow: hidden;
+		width: 620px;
+		height: 60px;
+		float: left;
+		background: rgba(0, 0, 0, .1);
+		font-size: 18px;
+		border: none;
+		border-radius: 5px;
+	}
+	
+	#btn {
+		width: 100px;
+		height: 60px;
+		background: #666666;
+		float: right;
+		cursor: pointer;
+		text-align: center;
+		line-height: 60px;
+		font-size: 18px;
+		color: #fff;
+		user-select: none;
+		border-radius: 10px;
+	}
