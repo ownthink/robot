@@ -15,7 +15,7 @@ function action()
 	var args= {
 			type : "get",
 			url:"https://api.ownthink.com/bot/query",
-			data : {"key" : "openapi", "info" : text.val()},
+			data : {"key" : "openkey", "info" : text.val()},
 			success : function(redata)
 			{
 				var result = $.parseJSON(redata).text;

@@ -1,4 +1,4 @@
-# chatbot 思知问答机器人
+# 思知问答机器人
 
 机器人开放api暂时不能使用，过两天抽空修复。。。
 
@@ -9,17 +9,17 @@
 git clone git@github.com:ownthink/robot.git
 ```
 
-
-
-## 免费申请独立api接口
-
-### get请求api示范
+## 免费部署属于自己的机器人
+get请求api示范
 ```shell
 https://api.ownthink.com/bot/query?key=openkey&id=yener&info=你好小思
 ```
 
-### 申请方式
-直接发送邮件到help@ownthink.com即可申请。
+### api申请方式
+直接将自己的信息发送邮件到help@ownthink.com即可申请。
+
+或者加入qq群向群主申请
+qq群：90780053
 
 ### 使用方式
 
