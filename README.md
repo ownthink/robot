@@ -1,6 +1,5 @@
 # 思知问答机器人
-
-机器人开放api暂时不能使用，过两天抽空修复。。。
+这是一个幻想主义者的理想国，作者在人工智能方面不断努力着，希望有一天能够出现独立思考的人工智能机器人。虽然作者明知道短期内不可能实现，但却一直向着他的梦执着前行着。
 
 
 ## 项目使用方式
@@ -12,7 +11,7 @@ git clone git@github.com:ownthink/robot.git
 ## 部署属于自己的机器人
 get请求api示范
 ```shell
-https://api.ownthink.com/bot/query?key=openkey&id=yener&info=你好小思
+https://api.ownthink.com/bot/query?key=openkey&id=yener&info=你好
 ```
 
 ### api申请方式
