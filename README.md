@@ -15,7 +15,7 @@ get请求api示范
 https://api.ownthink.com/bot/query?key=openkey&id=yener&info=你好
 ```
 
-### api免费申请方式（还没实现，过几天抽空编写。。。。）
+### api免费申请方式
 直接将自己的信息发送邮件到help@ownthink.com即可申请。
 
 或者加入qq群向群主申请 qq群：90780053
