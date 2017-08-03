@@ -5,6 +5,8 @@
 
 如果发送消息无反应，那就是服务器正在处理其他任务，暂时关闭api了，想要测试可以联系  help@ownthink.com
 
+示范：https://robot.ownthink.com/
+
 ## 项目使用方式
 下载到本地，直接用浏览器打开index.html即可使用。
 ```shell
