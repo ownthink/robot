@@ -23,9 +23,11 @@ post请求
 ```shell
 https://api.ownthink.com/bot/query
 
-key=openkey
-id=yener
-info=你好
+{
+    "key": "openkey",
+    "id": "yener",
+    "info": "你是谁？"
+}
 ```
 
 ### api免费申请方式
