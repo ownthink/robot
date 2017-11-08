@@ -37,7 +37,7 @@ https://api.ownthink.com/bot/query
 
 ### api使用方式
 
-申请后将可获得一个独立的key，将上面示范请求方式中key的openkey替换成自己的key即可。
+申请后将可获得一个独立的token，将上面示范请求方式中token的openbot替换成自己的key即可。
 
 id功能为robot对应多个用户的标识，暂时还未实现，可以随便填写。
 
