@@ -16,7 +16,7 @@ git clone git@github.com:ownthink/robot.git
 ## 部署属于自己的机器人(版本将要更新，后面将会使用https://api1.ownthink.com/服务)
 get请求api示范
 ```shell
-https://api.ownthink.com/bot/query?key=openkey&id=yener&info=你好
+https://api.ownthink.com/bot/query?token=openbot&id=yener&info=你好
 ```
 
 post请求
