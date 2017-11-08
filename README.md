@@ -24,7 +24,7 @@ post请求
 https://api.ownthink.com/bot/query
 
 {
-    "key": "openkey",
+    "token": "openbot",
     "id": "yener",
     "info": "你是谁？"
 }
