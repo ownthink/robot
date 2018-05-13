@@ -14,7 +14,7 @@ function action()
 	
 	var args= {
 			type : "get",
-			url:"https://api.ownthink.com/bot/query",
+			url:"https://api.ownthink.com/bot",
 			data : {"token" : "openbot", "info" : text.val()},
 			success : function(redata)
 			{
