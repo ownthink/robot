@@ -15,19 +15,17 @@ git clone git@github.com:ownthink/robot.git
 
 ## 部署属于自己的机器人
 get请求api示范
-```shell
-https://api.ownthink.com/angent/query?token=openbot&info=姚明的身高是多少啊？
 ```
-
-post请求
-```shell
-https://api.ownthink.com/bot/query
-
+https://api.ownthink.com/bot?token=openbot&info=姚明多高啊？
+```
+post请求api示范
+```
+curl -XPOST https://api.ownthink.com/bot  -d'
 {
-    "token": "openbot",
-    "id": "yener",
-    "info": "你是谁？"
+	"token":"openbot",
+	"info":"姚明多高啊？"
 }
+'
 ```
 
 ### api免费申请方式
@@ -39,5 +37,4 @@ https://api.ownthink.com/bot/query
 
 申请后将可获得一个独立的token，将上面示范请求方式中token的openbot替换成自己的key即可。
 
-id功能为robot对应多个用户的标识，暂时还未实现，可以随便填写。
 
