@@ -2,9 +2,10 @@
   思知是作者的一个理想国，作者在人工智能方面不断努力着，希望有一天能够出现独立思考的人工智能机器人，虽然明知道短期内不可能实现，但却一直向着他的梦执着前行着。
 
 ## 项目介绍
-机器人采用了基于知识图谱的语义感知与理解。知识图谱项目：https://github.com/ownthink/KnowledgeGraph
-
-示范：https://robot.ownthink.com/
+机器人采用了基于知识图谱的语义感知与理解。
+知识图谱项目：https://github.com/ownthink/KnowledgeGraph
+语义理解项目：https://github.com/ownthink/Semantic
+机器人示范：https://robot.ownthink.com/
 
 ## 项目使用方式
 下载到本地，直接用浏览器打开index.html即可使用。
