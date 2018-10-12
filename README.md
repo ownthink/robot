@@ -3,8 +3,11 @@
 
 ## 项目介绍
 机器人采用了基于知识图谱的语义感知与理解。
+
 知识图谱项目：https://github.com/ownthink/KnowledgeGraph
+
 语义理解项目：https://github.com/ownthink/Semantic
+
 机器人示范：https://robot.ownthink.com/
 
 ## 项目使用方式
