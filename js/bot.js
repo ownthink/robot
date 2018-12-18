@@ -18,7 +18,7 @@ function action()
 			data : {"token" : "openbot", "info" : text.val()},
 			success : function(redata)
 			{
-				var result = $.parseJSON(redata).text;
+				var result = $.parseJSON(redata).data.info.text;
 				$(".b-body").append("<div class='rotWord'><span></span> <p id='member'>" + result + "</p></div>");
 				$(".b-body").scrollTop(10000000);
 			}
