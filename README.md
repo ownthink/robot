@@ -4,6 +4,8 @@
 ## 项目介绍
 机器人采用了基于知识图谱的语义感知与理解。
 
+自然语言处理工具：https://github.com/ownthink/Jiagu
+
 知识图谱项目：https://github.com/ownthink/KnowledgeGraph
 
 语义理解项目：https://github.com/ownthink/Semantic
