@@ -34,7 +34,7 @@ curl -XPOST https://api.ownthink.com/bot  -d'
 ```
 
 ### api免费申请方式
-直接将自己的信息发送邮件到help@ownthink.com即可申请。
+注册账号，创建机器人：https://console.ownthink.com/
 
 或者加入qq群向群主申请 qq群：90780053
 
