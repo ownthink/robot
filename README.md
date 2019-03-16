@@ -21,13 +21,14 @@ git clone git@github.com:ownthink/robot.git
 ## 部署属于自己的机器人
 get请求api示范
 ```
-https://api.ownthink.com/bot?appid=openbot&spoken=姚明多高啊？
+https://api.ownthink.com/bot?appid=xiaosi@userid=test&spoken=姚明多高啊？
 ```
 post请求api示范
 ```
 curl -XPOST https://api.ownthink.com/bot  -d'
 {
-	"appid":"openbot",
+	"appid":"xiaosi",
+	"userid":"test",
 	"spoken":"姚明多高啊？"
 }
 '
