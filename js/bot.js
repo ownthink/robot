@@ -18,9 +18,25 @@ function action()
 			data : {"appid" : "xiaosi", "spoken" : text.val()},
 			success : function(redata)
 			{
-				var result = $.parseJSON(redata).data.info.text;
-				$(".b-body").append("<div class='rotWord'><span></span> <p id='member'>" + result + "</p></div>");
-				$(".b-body").scrollTop(10000000);
+				var my_data = $.parseJSON(redata)
+
+				var array= [my_data.data.info.text];
+
+				if(my_data.data.info.hasOwnProperty("heuristic"))
+				{
+					for (var i=0; i < my_data.data.info.heuristic.length; i++)
+					{
+						array.push(my_data.data.info.heuristic[i]);
+					}
+				} 
+
+				for (var i=0; i < array.length; i++)
+				{
+					// Æô·¢Ê½   console.log(array[i]);
+					var result = array[i];
+					$(".b-body").append("<div class='rotWord'><span></span> <p id='member'>" + result + "</p></div>");
+					$(".b-body").scrollTop(10000000);
+				}
 			}
 		}
 	
