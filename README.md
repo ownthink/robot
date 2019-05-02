@@ -41,6 +41,6 @@ curl -XPOST https://api.ownthink.com/bot  -d'
 
 ### api使用方式
 
-申请后将可获得一个独立的appid，将上面示范请求方式中appid的xiaosi替换成自己的key即可。
+申请后将可获得一个独立的appid，将上面示范请求方式中appid的xiaosi替换成自己的appid即可。
 
 
