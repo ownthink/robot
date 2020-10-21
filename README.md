@@ -10,7 +10,7 @@
 
 语义理解项目：https://github.com/ownthink/Semantic
 
-机器人示范：https://robot.ownthink.com/
+机器人示范：https://www.ownthink.com/robot.html
 
 ## 项目使用方式
 下载到本地，直接用浏览器打开index.html即可使用。
