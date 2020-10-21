@@ -35,6 +35,7 @@ curl -XPOST https://api.ownthink.com/bot  -d'
 ```
 
 ### api免费申请方式
+```text
 注册账号，创建机器人：https://console.ownthink.com/
 
 或者加入qq群向群主申请 
@@ -43,7 +44,7 @@ curl -XPOST https://api.ownthink.com/bot  -d'
 人工智能qq群3：1160292084
 知识图谱qq群1：55152968（满）
 知识图谱qq群2：740104333
-
+```
 ### api使用方式
 
 申请后将可获得一个独立的appid，将上面示范请求方式中appid的xiaosi替换成自己的appid即可。
